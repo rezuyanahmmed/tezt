@@ -1,0 +1,127 @@
+body {
+  background-color: #b2f0a5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #66bb6a;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+/* উপরের শিরোনাম */
+.top-title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  color: #145a32;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  background-color: #a8e6a3;
+  width: 70%;
+  border: 2px solid #3b7a3b;
+  border-radius: 10px;
+}
+
+article img {
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border: 3px solid #2e7d32;
+  border-radius: 10px;
+}
+
+.name {
+  background-color: #1b5e20;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Comic Sans MS", cursive;
+  position: relative;
+  cursor: pointer;
+}
+
+.benefit {
+  display: none;
+  position: absolute;
+  left: 150px;
+  top: 0;
+  width: 250px;
+  background-color: #e8f5e9;
+  color: black;
+  border: 2px solid #4caf50;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.name:hover .benefit {
+  display: block;
+}
+
+/* কেনার বক্স */
+.buy-box {
+  background-color: #9be79e;
+  border: 3px solid #2e7d32;
+  width: 70%;
+  margin: 30px auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.buy-box a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.buy-box a:hover {
+  color: darkgreen;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
